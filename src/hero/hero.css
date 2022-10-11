@@ -1,0 +1,32 @@
+.card-group{
+    padding-left: 25px;
+    padding-right: 35px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    box-shadow: black;
+  
+}
+.card1{
+    width: 465px;
+    margin-left: 75px;
+    height: 15px;
+}
+
+.card2{
+    padding-left: 195px;
+
+}
+.card-img-top{
+  height:225px;
+}
+.card-group h5{
+    padding-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-group p{
+    padding-top: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn btn-primary{
+    padding-bottom: 27px;
+}

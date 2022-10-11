@@ -1,0 +1,30 @@
+.main{
+    background-color: #003580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin-bottom: 65px;
+}
+.main input{
+    margin-top: 129px;
+    padding: 13px;
+    width:320px;  
+    border-color: rgb(238, 158, 11);
+    border-radius: 9px solid;
+}
+.main input:hover {
+    background: beige;
+    border-color: orangered;
+  }
+.main .btnn{
+    margin-top: 129px;
+    padding: 10px;
+    background-color:rgb(20, 20, 235);
+    color:white;
+    border-radius: 9px solid;
+    font-size: 19px;
+    font-weight: 600;
+    border-color: rgb(238, 158, 11);
+
+}

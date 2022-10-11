@@ -1,0 +1,36 @@
+.container {
+    padding-top: 65px;
+}
+
+.container img {
+    height: 325px;
+    width: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container img:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.container2 {
+    padding-top: 35px;
+}
+
+.container2 img {
+    height: 220px;
+    width: 340px;
+}
+
+.column {
+    width: 33.33%;
+    padding: 5px;
+    display: inline-block;
+}
+.col .p{
+    object-fit: cover;
+}

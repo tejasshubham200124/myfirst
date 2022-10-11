@@ -1,0 +1,95 @@
+.nlt {
+    padding-top: 56px;
+    padding-bottom: 55px;
+}
+
+.container3 {
+    height: 335px;
+    background-color: #003580;
+    width: 100%;
+    padding-right: 128px;
+    padding-top: 19px;
+}
+
+.container3 h1 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    color: aliceblue;
+    font-size: 35px;
+    padding-left: 77px;
+}
+
+.container3 p {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    padding-left: 77px;
+}
+
+.container3 .eml {
+    padding-top: 32px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-right: 15px;    
+    padding-right: 65px; */
+}
+
+.container3 input {
+    width: 39%;
+    height: 57px;
+    border: 1px solid black;
+    padding-left: 11px;
+    font-size: 14px;
+    padding-top: 2px;
+    border-color: black;
+    margin-left: 195px;
+    border-radius: 13px;
+}
+
+.container3 button {
+    margin-left: 35px;
+    width: 9%;
+    border-radius: 13px;
+    height: 57px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    color: white;
+    border-color: blue;
+
+}
+
+.container3 ::placeholder {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container3 .cbox {
+    height: 15px;
+    width: 15px;
+    padding-top: 10px;
+}
+
+.container3 span {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 600;
+    padding-left: 11px;
+}
+
+.container3 .sp {
+    padding-left: 210px;
+    padding-top: 12px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+
+
+}
