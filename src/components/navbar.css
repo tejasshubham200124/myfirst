@@ -1,3 +1,8 @@
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
 .navbar {
     height: 160px;
     background-color: #003580;
@@ -12,9 +17,12 @@
     margin-left: 122px;
     width: 120%;
 }
-.order span{
+
+.order span {
     margin-left: 10px;
+   
 }
+
 .order button {
     width: 99%;
     border-radius: 13px;
@@ -32,15 +40,21 @@
     font-size: 17px;
     font-style: bold;
     font-weight: 500;
-  margin:17px
+    margin: 17px;
+    text-decoration: none;
+    list-style: none;
 }
 
+.order ul a {
+    list-style: none;
+    text-decoration: none;
+}
 
 .navContainer {
     width: 100%;
     max-width: 1024px;
     color: white;
-   padding-right: 2px;
+    padding-right: 2px;
 }
 
 .navContainer .logo {
@@ -60,6 +74,28 @@
     border-radius: 1px;
     border-color: white;
     font-size: 17px;
-
-
 }
+/*  */
+
+/* @media screen {
+    .navContainer .logo{
+        padding-top: 2px;
+        padding-left: 5px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+@media screen  {
+    .navbar{
+        width:150%;
+    }
+}
+} */
+/* @media screen {
+         .order ul{
+            margin-right: 8px;
+            padding-top: 5px;
+            margin: 3px;
+
+    }
+} */

@@ -6,6 +6,10 @@ import { AiFillCar } from 'react-icons/ai';
 // import {  RiHotelLiner } from 'react-icons/Ri';
 import { MdAttractions } from 'react-icons/md';
 import { FaTaxi } from 'react-icons/fa';
+import {
+  BrowserRouter as Router, Switch,
+  Route, Redirect,
+} from "react-router-dom";
 
 
 
@@ -15,7 +19,7 @@ const Navbar = () => {
 
       <div className="navContainer">
         <div className="logo">Sar Software solutions
-{/* 
+          {/* 
           <button>Register</button>
 
           <button>Sign In</button> */}
@@ -23,7 +27,7 @@ const Navbar = () => {
         <div className="order">
           <ul>
             <div>
-              <BiBed size={25} /><span>stays</span>
+              <BiBed size={25} /><span><a href="/">stays</a></span>
             </div>
           </ul>
           <ul>

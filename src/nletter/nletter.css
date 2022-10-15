@@ -93,3 +93,17 @@
 
 
 }
+
+@media screen and (max-width:1024px) {
+    .container3 {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container3 h1 {
+        align-items: center;
+        font-size: 9px;
+        padding-top: 7px;
+    }
+}

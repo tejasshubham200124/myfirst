@@ -9,13 +9,13 @@
 .main input{
     margin-top: 129px;
     padding: 13px;
-    width:320px;  
+    width:19rem;  
     border-color: rgb(238, 158, 11);
     border-radius: 9px solid;
 }
 .main input:hover {
     background: beige;
-    border-color: orangered;
+    border-color: orange;
   }
 .main .btnn{
     margin-top: 129px;
@@ -27,4 +27,11 @@
     font-weight: 600;
     border-color: rgb(238, 158, 11);
 
+}
+@media screen and (max-width:1024px)
+{
+    .main input{
+        width:6em;
+        display: block;
+    }
 }
