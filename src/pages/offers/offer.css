@@ -28,10 +28,32 @@
     border-color: rgb(238, 158, 11);
 
 }
-@media screen and (max-width:1024px)
+@media screen and (max-width:400px)
 {
     .main input{
-        width:6em;
-        display: block;
+        width:96px;
+        height:17px;
+        font-size: 9px;
+        padding-left: 2px;
+
+      
+    }
+}
+@media screen and (max-width:400px)
+{
+    .main{
+     padding-bottom: 14px;
+
+      
+    }
+}
+@media screen and (max-width:400px)
+{
+    .main .btnn{
+        width:50px;
+        height:30px;
+       align-items: center;
+        font-size: 9px;
+      
     }
 }

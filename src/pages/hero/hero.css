@@ -1,0 +1,83 @@
+.card-group{
+    padding-left: 25px;
+    padding-right: 35px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    box-shadow: black;
+  
+}
+.card1{
+    width: 465px;
+    margin-left: 75px;
+    height: 15px;
+}
+
+.card2{
+    padding-left: 195px;
+    padding-top: 12px;
+
+}
+.card-img-top{
+  height:225px;
+  object-fit: cover;
+  width:100%;
+  padding: 10px;
+}
+.card-group h5{
+    padding-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-group p{
+    padding-top: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn btn-primary{
+    padding-bottom: 27px;
+}
+
+
+@media screen and (max-width:400px)
+{
+    .card1{
+   width:140px;
+   height:20px;
+   margin-left: 13px;
+    
+    }
+}
+
+.cardinfo{
+    width: 50%;
+
+  }
+
+@media screen and (max-width:400px)
+{
+    .card2{  
+    padding-bottom: 5px;
+      }
+
+.card-group{
+    display: flex;
+    padding: 10px;
+}
+
+      .cardinfo img{
+        height: 150px;
+        width: 150px;
+      }
+
+      .card-text{
+        font-size: 11px;
+
+      }
+      .mybutton{
+        font-size: 10px !important;
+      }
+      h5{
+        font-size: 10px;
+      }
+      .card-group{
+        padding-left: 10px;
+      }
+}

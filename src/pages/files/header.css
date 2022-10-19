@@ -41,3 +41,27 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+@media screen and (max-width:400px) {
+    .header h1 {
+       padding-left: 4px;
+       font-size: 19px;
+       padding-top: 4px;
+      
+      
+}
+} 
+@media screen and (max-width:400px) {
+    .header h2 {
+       padding-left: 4px;
+       font-size: 19px;
+      
+      
+}
+} 
+@media screen and (max-width:400px) {
+    .header {
+        height: 50px;
+      
+}
+} 

@@ -7,8 +7,11 @@
     height: 335px;
     background-color: #003580;
     width: 100%;
-    padding-right: 128px;
+    /* padding-right: 128px; */
     padding-top: 19px;
+}
+.container3 .txt1{
+    width:100%;
 }
 
 .container3 h1 {
@@ -35,8 +38,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* padding-right: 15px;    
-    padding-right: 65px; */
+   
 }
 
 .container3 input {
@@ -84,9 +86,8 @@
 }
 
 .container3 .sp {
-    padding-left: 210px;
+    /* padding-left: 210px; */
     padding-top: 12px;
-
     display: flex;
     align-items: center;
     margin-left: 5px;
@@ -94,16 +95,42 @@
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:400px) {
     .container3 {
-        height: 250px;
+        height: 350px;
+       
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:480px) {
     .container3 h1 {
         align-items: center;
-        font-size: 9px;
+        font-size: 15px;
         padding-top: 7px;
+        padding-left: 5px;
+        font-size: 17px;
     }
+    .container3 p{
+        padding-left: 17px;
+        padding-top: 7px;
+        font-size: 19px;
+    }
+    .container3 .eml{
+        padding-right: 254px;
+        margin-left: 39px;
+    }
+    .container3 input {
+        padding-left: 205px;
+        height: 45px;
+    }
+    .container3 button{
+        padding-right: 79px;
+        height: 45px;
+
+    }
+  /* .sp{
+    margin-left: 295px;
+  } */
 }
+
+

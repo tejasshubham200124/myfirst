@@ -45,48 +45,48 @@ export default class Responsive extends Component {
       <div className="slider">
         
         <Slider {...settings}>
-          <div>
-            <img src="./goa.jpg" />
+          <div >
+            <img src="./goa.jpg"  alt="img" />
            <h5>Goa</h5>
            <h6>3,904 properties</h6>
           </div>
           <div>
-          <img src="./mumbai.jpg" />
+          <img src="./mumbai.jpg" alt="img" />
           <h5>Mumbai</h5>
            <h6>1,560 properties</h6>
           </div>
           <div>
-          <img src="./ng.jpg" />
+          <img src="./ng.jpg" alt="img" />
           <h5>North Goa</h5>
            <h6>650 properties</h6>
           </div>
           <div>
-          <img src="./delhi.jpg" />
+          <img src="./delhi.jpg" alt="img" />
           <h5>Delhi</h5>
            <h6>8601 properties</h6>
           </div>
           <div>
-          <img src="./banglore.jpg" />
+          <img src="./banglore.jpg" alt="img" />
           <h5>Banglore</h5>
            <h6>5,894  properties</h6>
           </div>
           <div>
-          <img src="./pondi.jpg" />
+          <img src="./pondi.jpg" alt="img" />
           <h5>Pondicherry</h5>
            <h6>398 properties</h6>
           </div>
           <div>
-          <img src="./lonavala.jpg" />
+          <img src="./lonavala.jpg" alt="img"  />
           <h5>Lonavala</h5>
            <h6>1,584 properties</h6>
           </div>
           <div>
-          <img src="./udaipur.jpg" />
+          <img src="./udaipur.jpg" alt="img"  />
           <h5>Udaipur</h5>
            <h6>3,086 properties</h6>
           </div>
           <div>
-          <img src="./hydrabad.jpg" />
+          <img src="./hydrabad.jpg" alt="img" />
           <h5>Hydrabad</h5>
            <h6>4,903 properties</h6>
           </div>

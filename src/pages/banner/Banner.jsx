@@ -15,12 +15,12 @@ const Banner = () => {
             </div>
             <div class="container2">
                 <div class="row">
-                    <div class="column"><img src="leeds.jpg" />
-                    </div>
-                    <div class="column"><img src="leeds.jpg" />
-                    </div>
-                    <div class="column"><img src="leeds.jpg" />
-                    </div>
+                    <img src="leeds.jpg" />
+
+                    <img src="leeds.jpg" />
+
+                    <img src="leeds.jpg" />
+
                 </div>
             </div>
         </div>
