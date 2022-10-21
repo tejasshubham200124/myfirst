@@ -21,6 +21,8 @@
 
 //   import {Routes,Route, BrowserRouter} from "react-router-dom";
 // // import Stays from "./stays/Stays";
+import Layout from "./components/Layout/Layout"
+import React from 'react'
 
   
 
@@ -28,24 +30,9 @@
 const App = () => {
   return (
     <div>
-      {/* <BrowserRouter>
-    <Routes> 
-          <Route exact path="/flights" element={<Flights />} />
-          
-    </Routes>
-    </BrowserRouter> */}
-   
-    {/* <Navbar />
-    <Header />
-    <Offer />
-    <Hero />
-    <Sliding />
-    <Banner />
-    <Cards />
-    <Slider2 />
-    <Footer />
-    <Nletter />
-    <Stays /> */}
+       <Layout>
+       <Navbar />
+      </Layout>
     </div>
     
        );

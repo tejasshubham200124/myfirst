@@ -13,10 +13,12 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import Slider2 from "./slider2/Slider2";
 import Footer from "./footer/Footer";
 import Nletter from "./nletter/Nletter";
+
 // import Flights from "/routes/Flights";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 
 export default function Home() {
@@ -32,6 +34,7 @@ export default function Home() {
     <Slider2 />
     <Footer />
     <Nletter />
+   
     {/* <Flights /> */}
     
 

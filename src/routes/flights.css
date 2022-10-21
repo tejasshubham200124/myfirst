@@ -1,0 +1,96 @@
+.section {
+    background-color: #D3D3D3;
+    height: 170px;
+}
+
+.section .contnt {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 54px;
+    padding-top: 45px;
+}
+
+.contnt h4 {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.contnt p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card.crd{
+   padding:2px;
+    border-color:red;
+    width:63%; 
+}
+
+
+.mainn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainn input {
+    padding: 13px;
+    width: 19rem;
+    border-color: rgb(238, 158, 11);
+    border-radius: 9px solid;
+}
+
+.mainn input:hover {
+    background: beige;
+    border-color: orange;
+}
+
+.mainn .btnn {
+
+    padding: 10px;
+    background-color: rgb(20, 20, 235);
+    color: white;
+    border-radius: 9px solid;
+    font-size: 19px;
+    font-weight: 600;
+    border-color: rgb(238, 158, 11);
+
+}
+
+.search-box {
+    background-color: #D3D3D3;
+    height: 90vh;
+    padding-top: 65px;
+}
+
+.context {
+    padding-left: 165px;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.context h1 {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.context p {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.context .mainn {
+    padding-top: 45px;
+}
+
+.radio label {
+    padding: 8px;
+}
+
+.radio input {
+    padding: 15px;
+}

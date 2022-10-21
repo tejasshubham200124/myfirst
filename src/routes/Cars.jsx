@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../pages/layout/Layout'
 
 export default function Cars() {
   return (
-    <div>
-        connected successfully
-    </div>
+    <Layout >
+    <h2>cars</h2>
+    </Layout>
   )
 }
