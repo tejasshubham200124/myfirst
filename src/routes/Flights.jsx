@@ -16,11 +16,11 @@ export default function Flights() {
 
     <Layout >
       <div className='search-box'>
-        <div className="card crd ">
-          <div class="card-body  ">
+        {/* <div className="card crds ">
+          <div class="card-body  bdy">
           <p>Coronavirus (Covid-19) may affect your travel plans. Learn more..</p>
           </div>
-        </div>
+        </div> */}
         <div className='context'>
           <h1>Compare and book flights with ease</h1>
           <p>discover your next destination</p>
@@ -50,13 +50,25 @@ export default function Flights() {
                 selectsRange
               />
             </div>
-
             <div>
               <button className="btnn">Search</button>
             </div>
           </div>
         </div>
       </div>
+      <div className='query'>
+        <div className='questions'>
+      <div class="card qt col-sm-4">
+        <div class="card-header">
+          How do i find cheepest fligts on booking.com
+        </div>
+        <div class="card-body">
+        You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+        </div>
+      </div>
+      </div>
+      </div>
+
       <div className='section '>
         <div className='contnt'>
           <div>

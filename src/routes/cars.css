@@ -1,0 +1,44 @@
+.heading{
+    background-color: #ADD8E6;
+    height:67vh
+}
+.input-dt1{
+    display: flex;
+   margin-bottom: 20px;
+   margin-left: 35px;
+   justify-content: space-around;
+
+}
+.input-dt.innerText{
+    margin-left:12px;
+    padding-left: 22px;
+}
+.text-area{
+    margin-left:12%;
+    padding-top: 25px;
+}
+.text-area h1{
+    font-weight: 800;
+    font-family: monospace;
+    color: black;
+}
+.text-area p{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 25px;
+    color:black;
+}
+.text-area p span{
+    color:	#0047AB;
+    font-weight: 900;
+    font-size: 32px;
+}
+.input-dt{
+    justify-content: space-around;
+}
+.text-area input{
+    width:25%;
+}
+.text-area button{
+    width:25%;
+}

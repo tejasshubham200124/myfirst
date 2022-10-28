@@ -14,7 +14,6 @@ export default function Navigation() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/flights" element={<Flights />} />
           <Route exact path="/cars" element={<Cars />} />
-          
     </Routes>
    
     </BrowserRouter>

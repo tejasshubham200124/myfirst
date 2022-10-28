@@ -22,10 +22,19 @@
     font-size: 14px;
 }
 
-.card.crd{
-   padding:2px;
+.card.crds{
+   
     border-color:red;
-    width:63%; 
+    width:65em; 
+    margin-left: 156px;
+}
+.card-body.bdy{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: monospace;
+    color: red;
+    background-color: #FFB6C1;
+
 }
 
 
@@ -37,7 +46,7 @@
 
 .mainn input {
     padding: 13px;
-    width: 19rem;
+    /* width: 33rem; */
     border-color: rgb(238, 158, 11);
     border-radius: 9px solid;
 }
@@ -61,7 +70,7 @@
 
 .search-box {
     background-color: #D3D3D3;
-    height: 90vh;
+    height: 65vh;
     padding-top: 65px;
 }
 
@@ -93,4 +102,15 @@
 
 .radio input {
     padding: 15px;
+}
+/* .questions{
+    width:12px;
+  padding-left: 25px;
+} */
+.card.qt{
+    margin-left: 25px;
+    width:11em;
+}
+.query{
+    padding-top: 35px;
 }
