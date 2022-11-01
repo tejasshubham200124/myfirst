@@ -3,6 +3,7 @@ import "./cards.css";
 
 const Cards = () => {
     return (
+        <div className="container-fluid">
         <div className="crd">
    
             <div class="card">
@@ -19,6 +20,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

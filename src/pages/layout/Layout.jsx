@@ -9,12 +9,14 @@ import Offer from '../offers/Offer';
 const Layout =({children}) =>{
     return(
         <>
-        <div>
+        <div className='container-fluid p-0'>
+        <div >
             <Navbar />  
         </div>
        
         <main>{children}</main> <Footer/>
         <Nletter />
+        </div>
         </>
     )
 }

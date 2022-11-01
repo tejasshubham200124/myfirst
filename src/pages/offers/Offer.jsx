@@ -14,6 +14,7 @@ const Offer = () => {
         setEndDate(end);
     };
     return (
+        <div className="container-fluid p-0" >
         <div className="main">
             <div>
                 <input type="text"  placeholder="select your location" />
@@ -40,6 +41,7 @@ const Offer = () => {
             <div>
               <button className="btnn">Search</button>
             </div>
+        </div>
         </div>
 
     )

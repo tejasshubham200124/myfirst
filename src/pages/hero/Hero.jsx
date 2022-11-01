@@ -3,6 +3,7 @@ import "./hero.css";
 
 const Hero = () =>{
     return(
+      <div className="container-fluid">
         <div class="card-group" >
         <div class="cardinfo">
           <img class="card-img-top" src="./dubai.jpeg" alt="Card image cap" />
@@ -23,6 +24,7 @@ const Hero = () =>{
           </div>
         </div>
         
+      </div>
       </div>
 
     )

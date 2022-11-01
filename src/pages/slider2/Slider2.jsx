@@ -11,8 +11,8 @@ export default class Responsive extends Component {
       dots: true,
       infinite: false,
       speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 5,
+      slidesToScroll: 5,
       initialSlide:0 , 
       responsive: [
         {
@@ -42,6 +42,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
+      <div className="container-fluid">
       <div className="slider">
         
         <Slider {...settings}>
@@ -91,6 +92,7 @@ export default class Responsive extends Component {
            <h6>4,903 properties</h6>
           </div>
         </Slider>
+      </div>
       </div>
     );
   }

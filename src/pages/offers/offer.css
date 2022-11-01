@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
-    margin-bottom: 65px;
+    height: 80px;
+    /* margin-bottom: 65px; */
 }
 .main input{
-    margin-top: 129px;
-    padding: 13px;
-    width:19rem;  
+    margin-top: 75px;
+    padding: 8px;
+    /* width:19rem;   */
     border-color: rgb(238, 158, 11);
     border-radius: 9px solid;
 }
@@ -18,8 +18,8 @@
     border-color: orange;
   }
 .main .btnn{
-    margin-top: 129px;
-    padding: 10px;
+    margin-top: 75px;
+    padding: 6px;
     background-color:rgb(20, 20, 235);
     color:white;
     border-radius: 9px solid;

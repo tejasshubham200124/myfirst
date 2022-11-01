@@ -44,6 +44,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
+      <div className="container-fluid">
       <div className="slider">
         <Slider {...settings}>
           <div>
@@ -87,6 +88,7 @@ export default class Responsive extends Component {
             <h6>34,903 service apt</h6>
           </div>
         </Slider>
+      </div>
       </div>
     );
   }

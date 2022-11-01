@@ -3,6 +3,7 @@ import "./nletter.css";
 
 const Nletter = () => {
     return (
+        <div className="container-fluid">
         <div className="nlt">
             <div className="container3">
                 <div className="txt1">
@@ -19,6 +20,7 @@ const Nletter = () => {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 };
