@@ -2,29 +2,135 @@
     font-weight: 900;
     font-size: 25px;
     padding-top: 22px;
-    margin-left: 143px;
-   
+    
+
 }
+
 /* .footer{
     height: 45vh;
 } */
-.content{
-    margin-right: 200px;
-    padding-top: 75px;
+.content {
+    /* margin-right: 200px; */
+    /* padding-top: 75px; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    padding-left: 55px;
 }
-.ul{
+
+.content2 {
+
+    /* padding: 15px; */
+    width: 100%;
     display: flex;
-    /* gap:9; */
-    margin-right:2px ;
-}
-.bttn{
-    color:blue;
-    padding: 11px;
-    border-radius: 3px solid;
-    border: 2px solid;
+    /* flex-direction: column; */
+    /* padding-top: 1px; */
+    /* padding-left: 65px; */
 
 }
 
+.cnt p {
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: 600;
+    padding: 1px;
+}
+
+.cnt h5 {
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.ct3 p {
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: 600;
+    
+}
+
+.ct3 h5 {
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.cn {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin: 35px;
+}
+
+.cnt {
+    /* padding-left: 30px; */
+    width: 25%;
+    /* padding: 20px; */
+}
+
+.ul {
+    display: flex;
+    /* padding-left: 115px; */
+    font-weight: 900;
+    /* padding-top: 20px; */
+
+}
+
+.space {
+    padding-left: 19px;
+}
+
+.bttn-active {
+    border-color: blue;
+    padding: 6px;
+    border-radius: 19px;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    font-weight: 700;
+
+}
+
+.bttn {
+    padding: 6px;
+    background: transparent;
+    font-weight: 700;
+    border: none
+}
+
+.bttn:hover {
+    border: none;
+    background-color: #0000000f;
+    border-radius: 21px;
+    border-color: none;
+    /* padding-left: 12px; */
+
+
+}
+
+.cnn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 66px; */
+    /* margin-right: 12px; */
+    /* padding-left: 126px; */
+    padding-top: 30px;
+    /* padding-right: 65px; */
+    margin-bottom: 14px;
+
+}
+
+.ct3 {
+    width:20%;
+    
+ 
+}
 
 
 
@@ -41,7 +147,7 @@
 
 .content {
     display: flex;
-   padding-left: 14px;
+    padding-left: 14px;
     flex-direction: row;
     align-items: center;
     padding-top: 5px;
