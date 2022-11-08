@@ -18,6 +18,10 @@
     color:white;
     padding: 16px;
 }
+.min{
+    min-width:10%;
+   
+}
 .navbar .navigation{
     padding: 7px;
 }
@@ -54,8 +58,38 @@
     border-color: blue;
 
 }
+.active{
+    background-color: #0071c2;
+    border-radius: 29px;
+    /* color:pink; */
+    /* /* padding-left: 20px; */
+    /* padding-right: 20px;  */
+    padding:15px 20px;
+    /* border-width: thick; */
+    border:1px solid white;
+   
+    
+  
+}
+.inactive{
+   
+    padding:15px 20px;
+}
 
-.order ul {
+ .inactive:hover{
+    background: #ffffff1a;
+    border-radius: 24px;
+    /* padding-left: 15px;
+    padding-right: 17px; */
+    padding:15px 20px;
+    /* border-width: thick; */
+    /* border-color: white; */
+  
+
+    
+}
+
+ ul {
     /* padding-bottom: 95px; */
     font-size: 17px;
     font-style: bold;
@@ -65,12 +99,20 @@
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 17px;
+    padding: 19px;
+    margin-right: 4px;
     color: white;
+    /* border-radius: 13px; */
+    border-color:white;
 
 }
+/* .active{
+    background-color: red;
+    
+} */
+
 .order .icon{
-    margin-right: 13px;
+    margin-right: 8px;
     color: white;
 }
 
@@ -86,9 +128,17 @@
     /* font-size: 25px;
     padding-top: 2px; */
 }
-a:link, a:visited{
+a:link, a:visited {
     color:white;
 }
+a:link, a:visited:hover{
+    color:white;
+}
+ /* .active:hover {
+    color:  pink !important;
+     border-radius: 21px;
+    border-color: white;  
+} */
 
 
 

@@ -10,10 +10,30 @@ import {
   BrowserRouter as Router, Link, Switch,
   Route, Redirect,
 } from "react-router-dom";
+import { useState } from "react";
+import { NavLink } from 'react-router-dom'
 
 
 
 const Navbar = () => {
+  // const [stays,setStays]=useState(true);
+  // const [flights,setFlights]=useState(false);
+  // const [cars,setCars]=useState(false);
+  // const staysHandler= ()=>{
+  //   setStays(true);
+  //   setFlights(false);
+  //   setCars(false);
+  // }
+  // const flightHandler =() =>{
+  //   setStays(false);
+  //   setFlights(true);
+  //   setCars(false);
+  // }
+  // const carsHandler =() =>{
+  //   setStays(false);
+  //   setFlights(false);
+  //   setCars(true);
+  // }
   return (
     <div className="container-fluid p-0">
       {/* <div className="navbar">
@@ -26,7 +46,7 @@ const Navbar = () => {
           <button>Sign In</button>
         </div> */}
       <div className="navbar">
-        <div className="navLink>=">
+        <div className="navLink">
           <span>Sar Software solutions</span>
         </div>
         <div className="navigation">
@@ -35,23 +55,32 @@ const Navbar = () => {
         </div>
       </div>
       <div className="order">
-        <ul>
-          <div>
-            <BiBed size={25} className="icon"/><span><Link to="/">stays</Link></span>
+        <ul  >
+          <div className="min">
+            <span>< NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : 'inactive')}><BiBed size={25} className="icon" />stays</NavLink></span>
+            {/* <BiBed size={25} className="icon"/><span><Link to="/">stays</Link></span> */}
           </div>
         </ul>
-        <ul>
-          <TbPlaneInflight size={25} className="icon" /><span>  <Link to="/flights">flights</Link></span>
-        </ul>
-        <ul>
-          <AiFillCar size={25} className="icon" /><span> <Link to="/Cars">Cars</Link></span>
-        </ul>
-        <ul>
-          <MdAttractions size={25} className="icon"/><span>attractions</span>
-        </ul>
-        <ul>
-          <FaTaxi size={25} className="icon"/><span>taxi</span>
-        </ul>
+        <div className="min">
+          <ul >
+            <span>  <NavLink to="/flights" className={({ isActive }) => (isActive ? 'active' : 'inactive')} > <TbPlaneInflight size={25} className="icon" />flights</NavLink></span>
+          </ul>
+        </div>
+        <div className="min">
+          <ul>
+            <span> <NavLink to="/Cars" className={({ isActive }) => (isActive ? 'active' : 'inactive')} ><AiFillCar size={25} className="icon" />Cars</NavLink></span>
+          </ul>
+        </div>
+        <div className="min">
+          <ul>
+            <span> <MdAttractions size={25} className="icon" />attractions</span>
+          </ul>
+        </div>
+        <div className="min">
+          <ul>
+            <span><FaTaxi size={25} className="icon" />taxi</span>
+          </ul>
+        </div>
       </div>
     </div>
 

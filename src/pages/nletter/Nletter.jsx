@@ -7,13 +7,12 @@ const Nletter = () => {
         <div className="nlt">
             <div className="container3">
                 <div className="txt1">
+                    <div className="left">
                     <h1>Save Time,Save Money !</h1>
                     <p>Sign up and we will send you the best deals</p>
+                    </div>
                     <div className="eml">
-                     
                         <input type="text" placeholder="Your Email" />
-                        
-                       
                         <button type="button">Subscribe</button>
                         
                     </div>

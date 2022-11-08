@@ -3,7 +3,8 @@ import "./sliding.css";
 import Slider from "react-slick";
 import React, { Component } from "react";
 import { MdPadding } from "react-icons/md";
-
+import {BrowserRouter as Router, Link} from 'react-router-dom';
+import Mumbai from "../../routes/Mumbai";
 
 
 export default class Responsive extends Component {
@@ -47,11 +48,15 @@ export default class Responsive extends Component {
       <div className="container-fluid">
       <div className="slider">
         <Slider {...settings}>
+          {/* <Router> */} 
           <div>
+           
             <img src="./hotels.jpeg" />
+           
             <h5>Hotels</h5>
             <h6>901,157 hotels</h6>
-          </div>
+          </div> 
+          {/* </Router> */}
           <div>
             <img src="./apartments.jpeg" />
             <h5>Apartments</h5>

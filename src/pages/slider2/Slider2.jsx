@@ -2,8 +2,7 @@
 import "./slider2.css";
 import Slider from "react-slick";
 import React, { Component } from "react";
-
-
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 export default class Responsive extends Component {
   render() {
@@ -47,12 +46,16 @@ export default class Responsive extends Component {
         
         <Slider {...settings}>
           <div >
+         
             <img src="./goa.jpg"  alt="img" />
+          
            <h5>Goa</h5>
            <h6>3,904 properties</h6>
           </div>
           <div>
+          <Link to="/Mumbai" >
           <img src="./mumbai.jpg" alt="img" />
+          </Link>
           <h5>Mumbai</h5>
            <h6>1,560 properties</h6>
           </div>

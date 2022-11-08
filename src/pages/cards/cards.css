@@ -1,86 +1,65 @@
-.crd {
-    padding-top: 55px;
-}
+.main-card{
+    /* width:100%; */
+    display: flex;
 
-.card {
-    height: 185px;
-    width: 83%;
-    margin-left: 95px;
-    border-radius: 3px;
-    padding-bottom: 55px;
-    border-width: 2px;
-    color: black;
+  
 }
-.card-body{
-    padding-top: 58px;
+.full-body{
+    padding-top: 22px;;
 }
-
-.txt {
-    padding-top: 21px;
-    padding-left: 165px;
-    color: aqua;
+.card-imgg img{
+   
+    height:178px;
+    width:194px; 
+    align-items: center;
 }
-
-.txt input {
-    width: 55%;
-    height: 37px;
-    border: 1px solid black;
-    padding-left: 9px;
-    font-size: 15px;
-    padding-top: 2px;
-    border-color: black;
-    overflow: hidden;
-    font-weight: 500;
-    color: black;
-}
-
-.card-body h4 {
-    padding-left: 165px;
-    margin-top: 2px;
-    font-weight: 800;
-    font-size: 24px;
-}
-.card-body img{
-    display:flex;
-    flex-wrap: wrap;
+.inner-tag{
+    display: flex;
     flex-direction: row;
-
-
+    gap:25px;
+    padding-left:25px ;
+    font-family: monospace;
 }
-
-.card-body h5 {
-    padding-top: 3.9px;
-    padding-left: 165px;
-    font-size: 17px;
+.inner-tag input{
+    width:55%;
+    height:40px;
+}
+.inner-tag input::placeholder{
+    padding-left: 10px;
+    font-family: monospace;
+    font-weight: 400;
+}
+.tag{
+    padding-left: 25px;
+}
+.tag h3{
     font-weight: 700;
-
+    font-family: monospace;
 }
-
-.txt button {
-    margin-left: 75px;
-    height: 37px;
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: transparent;
-    color: blue;
+.signIn-btn{
+    background-color: none;
     border-color: blue;
-    overflow: hidden;
-
+    color: blue;
+    background: none;
+    padding: 5px;
+    font-weight: 400;
 }
-.txt button :hover{
-    border-color: rgb(5, 5, 77);
-    color: white;
-    transition: all;
-
+.signIn-btn:hover{
+    background-color: #0071c2;
+    color:black
 }
 
 
 
 
-.card img {
-    height: 125px;
-    width: 125px;
-}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:480px){
     .card{

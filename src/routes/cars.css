@@ -1,6 +1,6 @@
 .heading{
-    background-color: #ADD8E6;
-    height:67vh
+    
+    height:570px;
 }
 .input-dt1{
     display: flex;
@@ -15,18 +15,18 @@
 }
 .text-area{
     margin-left:12%;
-    padding-top: 25px;
+    padding-top: 75px;
 }
 .text-area h1{
     font-weight: 800;
     font-family: monospace;
-    color: black;
+    color: white;
 }
 .text-area p{
     font-weight: 600;
     font-family: monospace;
     font-size: 25px;
-    color:black;
+    color:white;
 }
 .text-area p span{
     color:	#0047AB;
@@ -34,11 +34,114 @@
     font-size: 32px;
 }
 .input-dt{
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.text-area input{
-    width:25%;
+ /* .hero-section{
+    background-image: url("BLUE5.jpg");
+}  */
+.inner-body{
+    width:100%;
+    display: flex;
+    gap:5px;
+    padding-top: 55px;
 }
-.text-area button{
-    width:25%;
+.inp{
+    width:50%;
+    
+}
+.inp input{
+    width:70%;
+    /* height:55px; */
+    border-radius: 13px;
+}
+.inner-body2{
+    width:100%;
+    display: flex;
+    gap:5px;
+    margin-top: 25px;
+}
+.inner-button{
+    width:33%;
+    /* height:55px; */
+    border-radius: 13px;
+    font-size: 23px;
+    color: white;
+    background-color: blue;
+    font-weight: 300;
+    font-family: monospace;
+    margin-left: 33px;
+}
+.dd{
+    display: flex;
+    gap:20px;
+}
+.dropdown button{
+    background-color: blue;
+    color:white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+
+}
+.dropdown button :hover{ 
+    background-color:blue;
+
+}
+.input-group{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    padding-bottom: 45px;
+
+}
+/* .form-control{
+    width:10%
+} */
+.botm{
+    margin-top: 45px;
+}
+.input-set{
+     display: flex;
+    flex-direction: row;
+    width:34%;
+}
+.input-set input{
+     /* height:43px; */
+     /* padding: 20px 20px ; */
+     border-radius: 7px;
+     border-right-width: 1px;
+     border:none
+}
+.form-control input{
+    border:1px solid white;
+}
+input[type=text]:focus{
+    outline:none !important;
+    border-color: none !important;
+}
+.icn{
+    display: flex;
+    align-items: center;
+    color:black; 
+
+}
+
+.inner-button:hover{
+    background-color: #0071c2
+}
+.input-set2{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    height:63px;
+       
+        
+}
+/* .input-set2 input{
+    border: none;
+} */
+.input-set2.inner-button{
+    gap:15px;
+    display: flex;
 }

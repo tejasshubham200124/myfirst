@@ -46,73 +46,73 @@ const Footer = () => {
                 {region && (
                     <div>
                         <div className="content">
-                            <div>
+                            <div className="inner-inc">
                                 <p>Leh</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Ibiza</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Cornwall</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Lake District</p>
                                 <h5>5,515 properties</h5>
                             </div>
                         </div>
                         <div className="content">
-                            <div>
+                            <div className="inner-inc">
                                 <p>Hawaii</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Travel</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Bihar</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Phukhet</p>
                                 <h5>5,515 properties</h5>
                             </div>
                         </div>
                         <div className="content">
-                            <div>
+                            <div className="inner-inc">
                                 <p>Terefene</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Bali</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Zankibar</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Mykanos</p>
                                 <h5>5,515 properties</h5>
                             </div>
                         </div>
                         <div className="content">
-                            <div>
+                            <div className="inner-inc">
                                 <p>Bora Bora</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>jersey</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>Isle of Wight</p>
                                 <h5>5,515 properties</h5>
                             </div>
-                            <div>
+                            <div className="inner-inc">
                                 <p>England</p>
                                 <h5>5,515 properties</h5>
                             </div>

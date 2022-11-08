@@ -25,11 +25,11 @@ export default function Flights() {
           <h1>Compare and book flights with ease</h1>
           <p>discover your next destination</p>
           <div className='radio'>
-            <input type="radio" />
+            <input type="radio"   name="radAnswer"/>
             <label>Round trip</label>
-            <input type="radio" />
+            <input type="radio"  name="radAnswer" />
             <label>One way</label>
-            <input type="radio" />
+            <input type="radio"  name="radAnswer" />
             <label>Multicity</label>
           </div>
           <div className="mainn">
@@ -56,19 +56,56 @@ export default function Flights() {
           </div>
         </div>
       </div>
-      <div className='query'>
-        <div className='questions'>
-      <div class="card qt col-sm-4">
-        <div class="card-header">
-          How do i find cheepest fligts on booking.com
+      <div className='container'>
+        <div className='inner-container'>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
         </div>
-        <div class="card-body">
-        You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+      </div>
+      <div className='container'>
+        <div className='inner-container'>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
+          <div className='inner-content'>
+          <div class="card">
+            <div class="card-body">
+            You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+            </div>
+          </div>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-
       <div className='section '>
         <div className='contnt'>
           <div>
@@ -85,7 +122,12 @@ export default function Flights() {
           </div>
         </div>
       </div>
-
+      {/* <div class="card-header">
+          How do i find cheepest fligts on booking.com
+        </div>
+        <div class="card-body">
+        You can sort flights by price <br></br>to see them from cheapest to most expensive. <br></br>To find the cheapest flights, you also <br></br>need to consider factors like when you're booking <br></br>and want to travel.
+        </div> */}
 
     </Layout>
   )

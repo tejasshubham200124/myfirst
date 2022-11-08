@@ -1,0 +1,36 @@
+ .second-part{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+}
+.inner-carddtl{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+ .inner-cardimg{
+    width:30%;
+    height:40%; 
+}  
+ .inner-cardimg img{
+    height:200px;
+    width:200px;
+}
+.review{
+    flex-direction: row;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    width:70%;
+
+} 
+.inner-column{
+    display: flex;
+    flex-direction: column;
+}
+.inner-carddt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%;
+}

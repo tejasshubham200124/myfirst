@@ -14,7 +14,8 @@ const Layout =({children}) =>{
             <Navbar />  
         </div>
        
-        <main>{children}</main> <Footer/>
+        <main>{children}</main> 
+        {/* <Footer/> */}
         <Nletter />
         </div>
         </>
