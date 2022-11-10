@@ -50,8 +50,12 @@ const Navbar = () => {
           <span>Sar Software solutions</span>
         </div>
         <div className="navigation">
+          <Link to="/Login">
           <button className="button">Sign In</button>
+          </Link>
+          <Link to="/Register">
           <button className="button">Register</button>
+          </Link>
         </div>
       </div>
       <div className="order">

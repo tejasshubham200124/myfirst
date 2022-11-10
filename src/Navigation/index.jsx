@@ -1,26 +1,28 @@
-import React from 'react'
-import { Routes, Route, BrowserRouter, useMatch,
-  useResolvedPath, } from "react-router-dom";
-import Flights from '../routes/Flights';
-import Cars from '../routes/Cars';
-import Home from '../pages/Home';
+import React from "react";
+import {
+  Routes,
+  Route,
+  BrowserRouter,
+  useMatch,
+  useResolvedPath,
+} from "react-router-dom";
+import Flights from "../routes/Flights";
+import Cars from "../routes/Cars";
+import Home from "../pages/Home";
 import "./index.css";
-import { NavLink } from 'react-router-dom';
-import  { LinkProps } from "react-router-dom";
-import Mumbai from '../routes/Mumbai';
-
-
+import { NavLink } from "react-router-dom";
+import { LinkProps } from "react-router-dom";
+import Mumbai from "../routes/Mumbai";
+import Login from "../login/Login";
+import Register from "../register/Register";
 
 export default function Navigation() {
-  
   return (
-
     <BrowserRouter>
-     
-        {/* <NavLink exact activeClassName='is-active' to='/'>Home</NavLink>
+      {/* <NavLink exact activeClassName='is-active' to='/'>Home</NavLink>
         <NavLink activeClassName='is-active' to='/flights'>About</NavLink>
         <NavLink activeClassName='is-active' to='/cars'>About</NavLink> */}
-        {/* <NavLink
+      {/* <NavLink
             to="Stays"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
           >
@@ -41,14 +43,13 @@ export default function Navigation() {
        */}
 
       <Routes>
-        <Route  exact path="/" element={<Home />} />
-        <Route    path="/flights" element={<Flights />} />
-        <Route    path="/cars" element={<Cars />} />
-        <Route path='/Mumbai' element={<Mumbai />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/flights" element={<Flights />} />
+        <Route path="/cars" element={<Cars />} />
+        <Route path="/Mumbai" element={<Mumbai />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
-
     </BrowserRouter>
-        
-
-  )
+  );
 }

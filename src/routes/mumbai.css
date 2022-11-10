@@ -84,3 +84,42 @@
 
 }
  */
+ .mumbai-heading h1{
+    font-weight: 700;
+    font-size: 31px;
+    
+ }
+ .mumbai-heading p{
+    font-weight: 700;
+    font-size: 20px;
+    
+ }
+.filters{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width:70%
+}
+.inner-body3{
+    width:100%;
+    display: flex;
+    padding-top: 5px;
+
+}
+.right-sec {
+    width:30%;
+}
+.down-section{
+    padding-top: 25px;
+}
+.right-sec p{
+    text-align: right;
+}
+.card-header{
+    font-weight: 700;
+    font-size: 20px;;
+}
+.inner-body3 p{
+    font-weight: 500;
+
+}

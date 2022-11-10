@@ -31,6 +31,7 @@ export default function Home() {
     <Slider2 />
     <Footer />
     <Nletter />
+    
    
    
     

@@ -1,5 +1,5 @@
  .second-part{
-    width:60%;
+    width:70%;
     display: flex;
     flex-direction: column;
 }
@@ -13,24 +13,34 @@
     height:40%; 
 }  
  .inner-cardimg img{
-    height:200px;
-    width:200px;
+    height:240px;
+    width:90%;
 }
 .review{
     flex-direction: row;
-    display: flex;
-    padding-left: 20px;
+    display: column;
+    /* padding-left: 10px; */
     justify-content: space-between;
-    width:70%;
+    width:50%;
 
 } 
+
 .inner-column{
     display: flex;
     flex-direction: column;
+
 }
-.inner-carddt2{
+.right-col{
+    width:20%;
+    padding-left: 56px;
+}
+.right-btn{
+    padding-top: 14px;
+    width:20%;
+}
+.inner-prop{
     display: flex;
     flex-direction: row;
+    /* gap:10px; */
     justify-content: space-between;
-    width:70%;
 }
