@@ -3,6 +3,7 @@ import Layout from "../pages/layout/Layout";
 import "./mumbai.css";
 import { BiSearchAlt2 } from "react-icons/bi";
 import Content from "./components/Content";
+import Pagination from "react-bootstrap/Pagination";
 
 export default function Mumbai() {
   const repeat = [
@@ -13,6 +14,16 @@ export default function Mumbai() {
     { name: "Hotel Westin", image: "fifth.jpg", span: "good" },
     { name: "Hotel Pizza by the bay", image: "sixth.jpg", span: "bad" },
   ];
+
+  let active = 1;
+  let items = [];
+  for (let number = 1; number <= 5; number++) {
+    items.push(
+      <Pagination.Item key={number} active={number === active}>
+        {number}
+      </Pagination.Item>
+    );
+  }
 
   return (
     <Layout>
@@ -306,6 +317,9 @@ export default function Mumbai() {
               />
             ))}
           </div>
+        </div>
+        <div>
+          <Pagination>{items}</Pagination>
         </div>
       </div>
     </Layout>

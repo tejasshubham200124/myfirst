@@ -1,0 +1,43 @@
+.main-page{
+    width:100%;
+    display :flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap:20px;
+}
+.first-half{
+    width:25%;
+}
+.inner-one{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.first-icon{
+    width:20%
+}
+.data-inserted{
+    width:70%
+}
+.data-inserted p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.second-half{
+    width:75%;
+}
+
+.table-data h1{
+    font-weight: 700;
+    padding-left: 15px;
+}
+.table-data p{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.table td{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+}

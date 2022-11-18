@@ -3,8 +3,17 @@
     width:100%;
     display:flex;
     align-items: center;
-    padding-top: 175px;
+    padding-top: 105px;
+    
 }
+.red span{
+    font-weight: 600;
+    color:red;
+}
+ .login-page form{
+    /* background-color:  #0071c2; */
+     /* background-color:  orange;   */
+} 
 .login-page h1{
     font-weight: 800;
     font-size: 24px;
@@ -44,3 +53,6 @@
 .login-btn2{
     width:50%; 
 } 
+.navbar h1{
+    padding-left: 12px;
+}

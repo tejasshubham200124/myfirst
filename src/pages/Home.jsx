@@ -19,6 +19,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
+  //  var user_id = localStorage.getItem("userid")
+  //  var user_name = localStorage.getItem("username")
+  //  var user_pass =localStorage.getItem("password")
+  //  console.log('userid', user_id)
+  //  console.log('username', user_name)
+  //  console.log('password', user_pass)
+   
   return (
     <div>
     <Navbar />

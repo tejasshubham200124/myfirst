@@ -138,7 +138,6 @@ const Footer = () => {
                                 <p>England</p>
                                 <h5>5,515 properties</h5>
                             </div>
-
                         </div >
                         <div className="content2">
                             <div className="cnt">

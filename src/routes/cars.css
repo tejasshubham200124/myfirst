@@ -145,3 +145,6 @@ input[type=text]:focus{
     gap:15px;
     display: flex;
 }
+.dropdwon-color{
+    color:pink
+}

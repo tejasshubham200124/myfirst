@@ -63,14 +63,16 @@ export default function Cars() {
               </div>
               <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Dropdown Button
+                 Whole-trip
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
+                  <Dropdown.Item className="dropdown-color" href="#/action-1">
+                    Action
+                  </Dropdown.Item>
+                  <Dropdown.Item className="dropdown-color"href="#/action-2">
                     Another action
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
+                  <Dropdown.Item className="dropdown-color" href="#/action-3">
                     Something else
                   </Dropdown.Item>
                 </Dropdown.Menu>

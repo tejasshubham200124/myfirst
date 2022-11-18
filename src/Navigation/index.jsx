@@ -15,6 +15,8 @@ import { LinkProps } from "react-router-dom";
 import Mumbai from "../routes/Mumbai";
 import Login from "../login/Login";
 import Register from "../register/Register";
+import Profile from "../routes/Profile";
+import Updateprofile from "../routes/Updateprofile";
 
 export default function Navigation() {
   return (
@@ -49,6 +51,8 @@ export default function Navigation() {
         <Route path="/Mumbai" element={<Mumbai />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/Profile" element={<Profile />} />
+        <Route path="/UpdateProfile" element={<Updateprofile/>} />
       </Routes>
     </BrowserRouter>
   );
